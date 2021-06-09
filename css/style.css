@@ -215,12 +215,13 @@ right: -4rem;
     align-items: center;
     justify-content: space-between;
     padding: .5rem;
+    margin-top: 1.5rem;
 }
 
 .explore_title {
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .explore_icon {
@@ -267,7 +268,9 @@ right: -4rem;
     color: #393D46;
 }
 
-
+.owl-theme .owl-nav {
+    margin-top: 0px;
+    }
 
 .slider_container {
     /* height: 300px; */
@@ -381,6 +384,10 @@ right: -4rem;
 /* slider section end  */
 
 /* friend  start*/
+
+.bottom_section .explore_container,.photo_container .explore_container{
+    margin-bottom: 1.5rem;
+}
 .more_container {
     width: 2.5rem;
     height: 2.5rem;
@@ -516,13 +523,14 @@ font-size: 1.1rem;
     margin-bottom: 1rem;
 }
 .right_subtitle{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #757575;
 }
 
 .right_price_container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 1rem 0;
 }
 
@@ -555,9 +563,51 @@ color: #3246D3;
     margin: 2rem 0;
 }
 .right_car_container div{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .right_car_container div i{
     margin-right: .5rem;
 }
+
+.photo{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.photo_img {
+    max-width: 135px;
+    width: 100%;
+    border-radius: 10px;
+    
+    margin-bottom: 1rem;
+}
 /*  */
+
+@media screen and (min-width:768px){
+    .logo_area {
+        width: calc(100% - 4rem);
+        right: 0;
+        left: 4rem;
+        width: calc(100% - (4rem + 300px));
+        }
+        .right_section {
+        margin-top: 0rem;
+        position: absolute;
+        width: 300px;
+        right: 0;
+        top: 0;
+        z-index: 100;
+        }
+        .main_section {
+        width: calc(100% - (4rem + 300px));
+        }
+        .friend_section {
+        width: 50%;
+        }
+        .member {
+        width: 50%;
+        }
+        .bottom_section {
+        display: flex;
+        }
+}
