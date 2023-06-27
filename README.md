@@ -1,2 +1,2 @@
-# travel.com
-# [travel.com](https://ndmorsalin.github.io/travel.com/)
+# hariajabo.com
+# [hariajabo.com](https://hariajabo.netlify.app/)
